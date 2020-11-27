@@ -1,7 +1,6 @@
 name: Python application
 on:
-  schedule:
-    - cron:  '*/10 * * * *'
+  push
 jobs:
   update_and_push:
 
